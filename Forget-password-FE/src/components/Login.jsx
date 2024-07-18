@@ -21,7 +21,8 @@ function Login  () {
            }
         )
         .then(response => {
-            if(response.data.status){ navigate('/')}
+            if(response.data.status){ }
+            navigate('/')
           
         }).catch(err => {
             console.log(err);
