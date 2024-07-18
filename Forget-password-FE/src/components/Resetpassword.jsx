@@ -19,7 +19,7 @@ function ResetPassword  (){
   const handleResetPassword = (event) => {
     event.preventDefault();
 
-    Axios.post('https://forget-password-q07l.onrender.com/auth/reset-password/' + token, { password }) // Use password state
+    Axios.post('https://forget-password-1.onrender.com/auth/reset-password/' + token, { password }) // Use password state
       .then(response => {
         if (response.data.status) {
           alert("Password reset successfully. You can now login with your new password.");

@@ -14,7 +14,7 @@ function Login  () {
     const handleSubmit =(e) => {
        
         e.preventDefault()
-        axios.post('https://forget-password-q07l.onrender.com/auth/login',
+        axios.post('https://forget-password-1.onrender.com/auth/login',
         {email,password},
          {
         withCredentials: true,

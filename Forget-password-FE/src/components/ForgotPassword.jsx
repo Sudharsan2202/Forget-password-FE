@@ -16,7 +16,7 @@ const handleEmailChange = (event) => {
 const handleSubmit = (event) => {
   event.preventDefault();
   
-  Axios.post('https://forget-password-q07l.onrender.com/auth/forgot-password', { email })
+  Axios.post('https://forget-password-1.onrender.com/auth/forgot-password', { email })
     .then(response => {
       if (response.data.status) { 
         // Notify user about the password reset email
